@@ -1,0 +1,104 @@
+body{
+background-image: url("../imagens/imagem.png");
+background-position: center;
+background-size: 1000px;
+}
+
+.t,img{
+  position: relative;
+  border-radius:50%;
+}
+.card{
+  margin: auto;
+  padding: 10px;
+  width: 420px;
+  height: 610px;
+  background-color: white;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175);
+  border-radius: 25px;
+}
+.paragarph-center{
+  text-align: center;
+}
+.circle-photo{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  margin: -100px 0px 0px 110px;
+  padding: 10px;
+  width: 203px;
+  height: 203px;
+  border-radius:100%;
+  border:2px solid white;
+  position: relative;
+}
+
+h1{
+	font-size: 100px;
+	color: #01403A;
+	font-family: GardenGrownUS;
+}
+
+@font-face{
+		font-family: "GardenGrownUS";
+		src: url("../fonts/GardenGrownUS-CCaps.ttf");
+}
+
+.title{
+  margin-top: 20px;
+  font-family: arial black;
+  font-size: 30px;
+
+}
+.ps{
+  margin-left: -100px;
+  margin-top: 100px;
+}
+
+.ps2{
+  margin-left: 350px;
+  margin-top: -625px;
+}
+
+.ps3{
+  margin-left: 800px;
+  margin-top: -625px;
+}
+.ps6{
+  margin-left: 100px;
+  margin-right: 200px;
+}
+.control-ps{
+  position: relative;
+}
+
+label{
+	font-size: 35px;
+}
+
+#botão{
+	background-color: #01403A;
+}
+
+.btn{
+  margin-top: -25px;
+
+}
+
+
+nav li{
+	font-family: GardenGrownUS;
+	font-size: 100px;
+}
+
+a{
+	margin-top: 5px;
+	font-family: GardenGrownUS;
+	font-size: 100px;
+}
+
+.nav-wrapper{
+  background-color: #01403A;
+}
+
+.row2{
+  margin-top: 150px;
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="port">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MÉQUI Sujo's</title>
+
+    <script src="https://kit.fontawesome.com/bc58fc4108.js" crossorigin="anonymous"></script>
+    <script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/acao.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style2">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+<body>
+<div class="row">
+    <div class="col s12">
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="pratosPrincipais.php">Pratos Principais</a></li>
+        <li><a href="Bebidas.php">Bebidas</a></li>
+        <li class="divider"></li>
+        <li><a href="porcoes.php">Porções</a></li>
+        <li><a href="sobremesa.php">Sobremesa</a></li>
+      </ul>
+
+          <nav>
+            <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo center"> Restaurante </a>
+              <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li class="active"><a href="cozinh.html"> Cozinha </a></li>
+                <li><a href="cardapio.html"> Cardapio</a></li>
+                <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Administração</a></li>
+              </ul>
+            </div>
+          </nav>
+
+    </div>
+</div>
+
+<div class="container">
+
+  <div class="row">
+      <div class="col-md-12">
+        <div class="paragarph-center">
+          <h1> Consultar Pedidos </h1>
+        </div>
+      </div>
+  </div>
+
+<div class="row" id="linha1">
+
+
+      <div class="ps">
+        <div class="card">
+          <div class="circle-photo">
+            <img src="imagens/img.png" alt="" class="t" width="180" height="180px">
+          </div>
+      <div class="paragarph-center">
+      <h2 class="title">Mesa 01</h2>
+        <label for="bebidas"> Bebidas: </label>
+        <input type="text" name="bebidas">
+       </div>
+
+      <div class="paragarph-center">
+        <label for="pratoP"> Prato Principal: </label>
+        <input type="text" name="pratoP">
+      </div>
+
+        <div class="paragarph-center">
+        <label for="porcoes"> Porções: </label>
+        <input type="text" name="porcoes">
+      </div>
+
+          <div class="paragarph-center">
+        <label for="sobremesa"> Sobremesa: </label>
+        <input type="text" name="sobremesa">
+      </div>
+
+        <div class="paragarph-center">
+          <button id="botão" class="btn btn-warning"> Pedido Finalizado</button>
+        </div>
+    </div>
+    </div>
+
+     <div class="ps2">
+        <div class="card">
+          <div class="circle-photo">
+            <img src="imagens/img.png" alt="" class="t" width="180" height="180px">
+          </div>
+      <div class="paragarph-center">
+      <h2 class="title">Mesa 02</h2>
+        <label for="bebidas"> Bebidas: </label>
+        <input type="text" name="bebidas">
+       </div>
+
+      <div class="paragarph-center">
+        <label for="pratoP"> Prato Principal: </label>
+        <input type="text" name="pratoP">
+      </div>
+
+        <div class="paragarph-center">
+        <label for="porcoes"> Porções: </label>
+        <input type="text" name="porcoes">
+      </div>
+
+          <div class="paragarph-center">
+        <label for="sobremesa"> Sobremesa: </label>
+        <input type="text" name="sobremesa">
+      </div>
+
+        <div class="paragarph-center">
+          <button id="botão" class="btn btn-warning"> Pedido Finalizado</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="ps3">
+  <div class="card">
+    <div class="circle-photo">
+      <img src="imagens/img.png" alt="" class="t" width="180" height="180px">
+    </div>
+<div class="paragarph-center">
+<h2 class="title">Mesa 03</h2>
+  <label for="bebidas"> Bebidas: </label>
+  <input type="text" name="bebidas">
+ </div>
+
+<div class="paragarph-center">
+  <label for="pratoP"> Prato Principal: </label>
+  <input type="text" name="pratoP">
+</div>
+
+  <div class="paragarph-center">
+  <label for="porcoes"> Porções: </label>
+  <input type="text" name="porcoes">
+</div>
+
+    <div class="paragarph-center">
+  <label for="sobremesa"> Sobremesa: </label>
+  <input type="text" name="sobremesa">
+</div>
+
+  <div class="paragarph-center">
+    <button id="botão" class="btn btn-warning"> Pedido Finalizado</button>
+  </div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<div class="row2" id="linha2">
+
+
+      <div class="ps" id="linha3">
+        <div class="card">
+          <div class="circle-photo">
+            <img src="imagens/img.png" alt="" class="t" width="180" height="180px">
+          </div>
+      <div class="paragarph-center">
+      <h2 class="title">Mesa 04</h2>
+        <label for="bebidas"> Bebidas: </label>
+        <input type="text" name="bebidas">
+       </div>
+
+      <div class="paragarph-center">
+        <label for="pratoP"> Prato Principal: </label>
+        <input type="text" name="pratoP">
+      </div>
+
+        <div class="paragarph-center">
+        <label for="porcoes"> Porções: </label>
+        <input type="text" name="porcoes">
+      </div>
+
+          <div class="paragarph-center">
+        <label for="sobremesa"> Sobremesa: </label>
+        <input type="text" name="sobremesa">
+      </div>
+
+        <div class="paragarph-center">
+          <button id="botão" class="btn btn-warning"> Pedido Finalizado</button>
+        </div>
+    </div>
+    </div>
+
+     <div class="ps2">
+        <div class="card">
+          <div class="circle-photo">
+            <img src="imagens/img.png" alt="" class="t" width="180" height="180px">
+          </div>
+      <div class="paragarph-center">
+      <h2 class="title">Mesa 05</h2>
+        <label for="bebidas"> Bebidas: </label>
+        <input type="text" name="bebidas">
+       </div>
+
+      <div class="paragarph-center">
+        <label for="pratoP"> Prato Principal: </label>
+        <input type="text" name="pratoP">
+      </div>
+
+        <div class="paragarph-center">
+        <label for="porcoes"> Porções: </label>
+        <input type="text" name="porcoes">
+      </div>
+
+          <div class="paragarph-center">
+        <label for="sobremesa"> Sobremesa: </label>
+        <input type="text" name="sobremesa">
+      </div>
+
+        <div class="paragarph-center">
+          <button id="botão" class="btn btn-warning"> Pedido Finalizado</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="ps3">
+  <div class="card">
+    <div class="circle-photo">
+      <img src="imagens/img.png" alt="" class="t" width="180" height="180px">
+    </div>
+<div class="paragarph-center">
+<h2 class="title">Mesa 06</h2>
+  <label for="bebidas"> Bebidas: </label>
+  <input type="text" name="bebidas">
+ </div>
+
+<div class="paragarph-center">
+  <label for="pratoP"> Prato Principal: </label>
+  <input type="text" name="pratoP">
+</div>
+
+  <div class="paragarph-center">
+  <label for="porcoes"> Porções: </label>
+  <input type="text" name="porcoes">
+</div>
+
+    <div class="paragarph-center">
+  <label for="sobremesa"> Sobremesa: </label>
+  <input type="text" name="sobremesa">
+</div>
+
+  <div class="paragarph-center">
+    <button id="botão" class="btn btn-warning"> Pedido Finalizado</button>
+  </div>
+</div>
+</div>
+
+
+
+</div>
+
+
+  </div>
+
+
+</div>
+</body>
+</html>
